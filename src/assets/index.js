@@ -7,6 +7,8 @@ import creator from "./about/creator.png";
 import mobile from "./about/mobile.png";
 import web from "./about/web.png";
 
+import pc from "./heromobile/pc.png";
+
 import css from "./tech/css.png";
 import aspnet from "./tech/aspnet.png";
 import csharp from "./tech/csharp.png";
@@ -68,5 +70,6 @@ export {
   portfolio4,
   portfolio5,
   portfolio6,
+  pc,
   resume,
 };
