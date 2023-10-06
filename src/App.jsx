@@ -8,8 +8,10 @@ import {
   Navbar,
   Tech,
   Works,
+  WorksMobile,
   StarsCanvas,
   Footer,
+  TechMobile,
 } from "./components";
 
 const App = () => {
@@ -25,7 +27,9 @@ const App = () => {
         <About />
         {/* <Experience /> */}
         {!isMobile && <Tech />}
-        <Works />
+        {isMobile && <TechMobile />}
+        {!isMobile && <Works />}
+        {isMobile && <WorksMobile />}
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />

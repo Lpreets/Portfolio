@@ -3,8 +3,10 @@ import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
 import Tech from './Tech';
+import TechMobile from './TechMobile';
 import Experience from './Experience';
 import Works from './Works';
+import WorksMobile from './WorksMobile';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -15,8 +17,10 @@ export {
   Footer,
   About,
   Tech,
+  TechMobile,
   Experience,
   Works,
+  WorksMobile,
   Feedbacks,
   Contact,
   EarthCanvas, 
