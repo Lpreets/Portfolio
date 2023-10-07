@@ -16,7 +16,7 @@ import {
 } from "./components";
 
 const App = () => {
-  const isMobile = window.innerWidth <= 500;
+  const isMobile = window.innerWidth <= 860;
 
   return (
     <BrowserRouter>
