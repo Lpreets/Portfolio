@@ -32,7 +32,7 @@ const App = () => {
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
-          {!isMobile && <StarsCanvas />}
+          <StarsCanvas />
           <Footer />
         </div>
       </div>
