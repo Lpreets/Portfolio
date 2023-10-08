@@ -242,7 +242,7 @@ import {
         },
       ],
       image: portfolio1,
-      source_code_link: "https://threads-clone-lpreet.vercel.app/",
+      source_code_link: "https://lpreet-threads-clone.vercel.app/",
     },
     {
       name: "DALL-E Clone",
@@ -275,7 +275,7 @@ import {
         },
       ],
       image: portfolio2,
-      source_code_link: "https://dalle-e-clone-lpreet.netlify.app/",
+      source_code_link: "https://lpreet-dalle-e-clone.netlify.app/",
     },
     {
       name: "Threejs",
@@ -300,7 +300,7 @@ import {
         },
       ],
       image: portfolio3,
-      source_code_link: "https://threejs-lpreet.netlify.app/",
+      source_code_link: "https://lpreet-threejs.netlify.app/",
     },
     {
       name: "Meta Front-End Developer",
@@ -313,7 +313,7 @@ import {
         },
       ],
       image: portfolio4,
-      source_code_link: "https://meta-frontendcapstone-lpreet.vercel.app/",
+      source_code_link: "https://lpreet-meta-frontendcapstone.vercel.app/",
     },
     {
       name: "Meta Back-End Developer",
@@ -351,7 +351,7 @@ import {
         },
       ],
       image: portfolio6,
-      source_code_link: "https://movieworld-lpreet.vercel.app",
+      source_code_link: "https://lpreet-movieworld.vercel.app",
     },
   ];
   
