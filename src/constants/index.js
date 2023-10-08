@@ -275,7 +275,7 @@ import {
         },
       ],
       image: portfolio2,
-      source_code_link: "https://lpreet-dalle-e-clone.vercel.app/",
+      source_code_link: "https://lpreet-dall-e-clone.vercel.app/",
     },
     {
       name: "Threejs",
