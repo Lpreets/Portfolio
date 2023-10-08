@@ -275,7 +275,7 @@ import {
         },
       ],
       image: portfolio2,
-      source_code_link: "https://lpreet-dalle-e-clone.netlify.app/",
+      source_code_link: "https://lpreet-dalle-e-clone.vercel.app/",
     },
     {
       name: "Threejs",
@@ -300,7 +300,7 @@ import {
         },
       ],
       image: portfolio3,
-      source_code_link: "https://lpreet-threejs.netlify.app/",
+      source_code_link: "https://lpreet-threejs.vercel.app/",
     },
     {
       name: "Meta Front-End Developer",
