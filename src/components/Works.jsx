@@ -15,9 +15,12 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
-
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="cursor-pointer"
+      onClick={() => window.open(source_code_link, "_blank")}
+    >
       <Tilt
         options={{
           max: 45,
@@ -35,12 +38,7 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3
-            className="text-white font-bold text-[24px] cursor-pointer"
-            onClick={() => window.open(source_code_link, "_blank")}
-          >
-            {name}
-          </h3>
+          <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
@@ -72,11 +70,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Here are the projects I&apos;ve worked on. They range from simple React
-          websites to Full-Stack applications that utilize different
+          Here are the projects I&apos;ve worked on. They range from simple
+          React websites to Full-Stack applications that utilize different
           technologies and frameworks. <br />
-          By challenging myself to work with different technologies, I&apos;ve been
-          able to learn a lot and improve my skills. <br />
+          By challenging myself to work with different technologies, I&apos;ve
+          been able to learn a lot and improve my skills. <br />
           The projects also utilize different types of Databases that have
           helped expand my knowledge of SQL and NoSQL databases. <br />
           Each project is on GitHub but also deployed for viewing on Vercel or

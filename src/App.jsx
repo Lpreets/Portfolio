@@ -3,7 +3,7 @@ import {
   About,
   AboutMobile,
   Contact,
-  // Experience,
+  Experience,
   // Feedbacks,
   Hero,
   Navbar,
@@ -26,7 +26,7 @@ const App = () => {
           <Hero />
         </div>
         {isMobile ? < AboutMobile /> : <About />}
-        {/* <Experience /> */}
+        <Experience />
         {isMobile ? <TechMobile /> : <Tech />}
         {isMobile ? <WorksMobile /> : <Works />}
         {/* <Feedbacks /> */}
