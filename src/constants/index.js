@@ -147,7 +147,7 @@ import {
       company_name: "Makroner&Co",
       icon: makronerco,
       iconBg: "#383E56",
-      date: "October 2023 - October 2023",
+      date: "October 2023 - Present",
       points: [
         "Had various discussions with the client about the project and the requirements.",
         "Created and presented wireframes and prototypes to the client for approval.",
