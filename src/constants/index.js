@@ -187,6 +187,27 @@ import {
   
   const projects = [
     {
+      name: "Next.js Learn",
+      description:
+      "Interactive course from Next.js to learn the main features of Next.js by building a full-stack web application.",
+      tags: [
+        {
+          name: "Next.js 14.0",
+          color: "black-text-gradient",
+        },
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "light-blue-text-gradient",
+        },
+      ],
+      image: portfolio1,
+      source_code_link: "https://lpreet-nextjs-learn.vercel.app/",
+    },
+    {
       name: "Threads Clone",
       description:
       "Create Threads, join communities, see other people! Created with Next.js 13.4. The database of choice is MongoDB. Clerk is used for Authentication handling. File Uploads with UploadThing. Layout has been created with Tailwind CSS and beautiful styled componenets from Shadcn!",
