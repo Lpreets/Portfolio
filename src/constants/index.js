@@ -143,7 +143,7 @@ import {
   
   const experiences = [
     {
-      title: "Freelance",
+      title: "Freelance - Full Stack Developer",
       company_name: "Makroner&Co",
       icon: makronerco,
       iconBg: "#383E56",

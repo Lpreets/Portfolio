@@ -53,7 +53,7 @@ const Works = () => {
     <>
       <div>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </div>
 
       <div className="w-full flex">

@@ -3,6 +3,7 @@ import { footerlinks } from "../constants"
 
 function Footer() {
   return (
+    <div className="flex flex-col justify-center">
     <ul className="flex flex-row gap-10 pb-10 justify-center">
       {footerlinks.map((link) => (
         <li key={link.name}>
@@ -16,6 +17,8 @@ function Footer() {
         </li>
       ))}
     </ul>
+    <small className="text-center mb-6 ">Copyright &#169; Lovepreet Zelenkov Singh </small>
+    </div>
   )
 }
 
