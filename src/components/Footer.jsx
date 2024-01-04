@@ -17,7 +17,7 @@ function Footer() {
         </li>
       ))}
     </ul>
-    <small className="text-center mb-6 ">Copyright &#169; Lovepreet Zelenkov Singh </small>
+    <small className="text-center mb-6 ">Copyright © 2023 Lovepreet Zelenkov Singh | All Rights Reserved </small>
     </div>
   )
 }

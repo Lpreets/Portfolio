@@ -32,6 +32,10 @@ import portfolio3 from "./portfolio/portfolio3.png";
 import portfolio4 from "./portfolio/portfolio4.png";
 import portfolio5 from "./portfolio/portfolio5.png";
 import portfolio6 from "./portfolio/portfolio6.png";
+import portfolio7 from "./portfolio/portfolio7.png";
+import portfolio8 from "./portfolio/portfolio8.png";
+import portfolio9 from "./portfolio/portfolio9.png";
+import portfolio10 from "./portfolio/portfolio10.png";
 
 import github from "./footer/github.png";
 import linkedin from "./footer/linkedin.png";
@@ -74,6 +78,10 @@ export {
   portfolio4,
   portfolio5,
   portfolio6,
+  portfolio7,
+  portfolio8,
+  portfolio9,
+  portfolio10,
   pc,
   resume,
 };

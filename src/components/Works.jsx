@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { projectseasy, projectsmiddle, projectshard } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -84,9 +84,21 @@ const Works = () => {
           collaborate on, please feel free to contact me.
         </motion.p>
       </div>
-
-      <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+      <h3 className={`${styles.sectionProjectText} mt-8 text-center`}>Difficulty: Hard</h3>
+      <div className="mt-10 flex flex-wrap gap-7">
+        {projectshard.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+      </div>
+      <h3 className={`${styles.sectionProjectText} mt-8 text-center`}>Difficulty: Middle</h3>
+      <div className="mt-10 flex flex-wrap gap-7">
+        {projectsmiddle.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+      </div>
+      <h3 className={`${styles.sectionProjectText} mt-8 text-center`}>Difficulty: Easy</h3>
+      <div className="mt-10 flex flex-wrap gap-7">
+        {projectseasy.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
