@@ -149,7 +149,11 @@ import {
         "Created and presented wireframes and prototypes to the client for approval.",
         "Planned Tech Stack and Architecture for the project.",
         "Implemented responsive design with mobile first approach.",
-        "Added Authentication and Autherization with NextAuth and Protected Routes.",
+        "Utilized HTML, CSS, JavaScript, TypeScript, Next.js, React, and TailwindCSS for front-end development.",
+        "Integrated Supabase for SQL database management and Sanity.io as a headless CMS.",
+        "Implemented Stripe for efficient payment processing.",
+        "Developed an admin dashboard for order management and sales insights.",
+        "Focused on TDD principles for reliable and maintainable code.",
       ],
     },
   ];

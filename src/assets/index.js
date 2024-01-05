@@ -9,7 +9,7 @@ import web from "./about/web.png";
 
 import pc from "./heromobile/pc.png";
 
-import makronerco from "./work/makronerco.png";
+import makronerco from "./work/makronerco.svg";
 
 import css from "./tech/css.png";
 import aspnet from "./tech/aspnet.png";
