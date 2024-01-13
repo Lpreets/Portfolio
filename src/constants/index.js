@@ -20,6 +20,7 @@ import {
     portfolio8,
     portfolio9,
     portfolio10,
+    portfolio11,
     aspnet,
     csharp,
     django,
@@ -390,6 +391,30 @@ import {
       image: portfolio7,
       source_code_link: "https://lpreet-pricewise.vercel.app/",
     },
+    {
+      name: "Dropbox Simplified",
+      description: "Store your files securely with authentication and authorization, then access them from anywhere! This simplified version of Dropbox lets you store your files, see the file type in nice format, date you stored them (server time), and you can download your files anywhere or delete them if you wish",
+      tags: [
+        {
+          name: "Next.js 14",
+          color: "black-text-gradient",
+        },
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Cloud Firestore(Firebase & Google Cloud)",
+          color: "light-green-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "light-blue-text-gradient",
+        },
+      ],
+      image: portfolio11,
+      source_code_link: "https://lpreet-dropbox-simplified.vercel.app/",
+    }
    
   ];
 
