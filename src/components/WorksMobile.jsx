@@ -14,7 +14,9 @@ const ProjectCard = ({
 }) => {
 
   return (
-    <div>
+    <div
+    onClick={() => window.open(source_code_link, "_blank")}
+    >
         <div className="relative w-full h-[230px]">
           <img
             src={image}
@@ -26,7 +28,6 @@ const ProjectCard = ({
         <div className="mt-5">
           <h3
             className="text-white font-bold text-[24px] cursor-pointer"
-            onClick={() => window.open(source_code_link, "_blank")}
           >
             {name}
           </h3>
